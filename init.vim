@@ -7,7 +7,7 @@ set nocompatible
 let g:python3_host_prog='C:\Users\Ossi\Envs\neovim3\Scripts\python.exe'
 let g:python_host_prog='C:\Users\Ossi\Envs\neovim\Scripts\python.exe'
 
-call GuiWindowMaximized(1)
+"call GuiWindowMaximized(1)
 
 " Turned on later necessary for some plugins
 filetype off
@@ -26,7 +26,7 @@ Plug 'vim-airline/vim-airline-themes'
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 
 " Outine variable and functions
-Plug 'taglist.vim'
+Plug 'vim-scripts/taglist.vim'
 " Insane git integration
 Plug 'tpope/vim-fugitive'
 " Browse files on your system
@@ -36,7 +36,7 @@ Plug 'tpope/vim-surround'
 " Repeat functions provided by plugins
 Plug 'tpope/vim-repeat'
 " Snippets
-Plug 'SirVer/ultisnips' | 'honza/vim-snippets'
+Plug 'SirVer/ultisnips' | Plug 'honza/vim-snippets'
 
 " PluginCollection for python developement
 Plug 'klen/python-mode', { 'for': 'python' }
